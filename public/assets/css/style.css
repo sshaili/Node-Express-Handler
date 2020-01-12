@@ -1,0 +1,62 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:rgb(230, 184, 34);
+  }
+  
+  .pageHead {
+    font-size: 60px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  .burgerListsSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+  }
+
+  .burgerItem {
+    text-align: center;
+    font-size:20px;
+    color:rgb(44, 29, 29);
+  }
+
+  h1,h2{
+ color:rgb(207, 2, 2);
+}
+
+.burgerList {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .burgerItem.devoured{
+    color:rgb(54, 24, 24);
+  }
+
+  #ca{
+    height:25px;
+  }
+
+  button {
+    box-sizing: border-box;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height:100px;
+  }  
